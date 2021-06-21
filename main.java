@@ -3,7 +3,7 @@
         int account = 100;
         int replenish = 1100;
         int bonus;
-        if (replenish >= 1000) {
+        if (replenish > 1000) {
             bonus = replenish / 100;
         } else {
             bonus = 0;
